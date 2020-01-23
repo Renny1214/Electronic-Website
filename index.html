@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <!--Font Awesome Library CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!--CCS style sheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+
+    <style media="screen">
+    h1  {
+      color: #e4406f;
+      font-size: 50px;
+    }
+    body  {
+      background-color: #d6f8b8;
+    }
+    .company-name  {
+      font-family: "Montserrat" cursive;
+      font-size: 5rem;
+      line-height: 2;
+      text-align: center;
+      color: purple;
+    }
+    .para  {
+      font-size: 20px;
+      padding: 10px 10%;;
+    }
+    .home  {
+      background-color: #e6b2c6;
+    }
+    .home-imgs  {
+      padding: 10px 10%;
+    }
+    .home-imgs img  {
+      padding: 0 30px;
+      height: 350px;
+      width: 350px;
+    }
+    </style>
+  </head>
+
+  <body class="home">
+    <p class="company-name">E-mart Electronics</p>
+
+    <nav class="navbar navbar-expand-md bg-dark sticky-top">
+      <a href="#index.html" class="navbar-brand">
+        <img src="images/logo.jpg" alt="company logo" class="icon">
+      </a>
+
+      <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapseMenu">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapseMenu">
+        <ul class="navbar-nav mr-auto nav-tabs">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="products.html" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="alltv.html">TV</a>
+              <a class="dropdown-item" href="allac.html">AC</a>
+              <a class="dropdown-item" href="allrefri.html">Refrigerators</a>
+              <a class="dropdown-item" href="allwash.html">Washing Machines</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-tabs">
+          <li class="nav-item">
+            <a href="signup.html" class="nav-link">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <p class="para">
+      E-mart Electronics is an online destination for consumers seeking the best deals on the hottest electronic products, ranging from the latest technology to must have home goods. Our company has a true passion for tecnology and extensive knowledge about yhe products. You can visit our websites and keep an eye on your budget. We will tell you about the latest technology, help you evaluate what you need and we will make sure you never over-spend.
+    </p>
+
+    <div class="home-imgs">
+      <img src="images/home-img1.jpg">
+      <img src="images/home-img2.jpg">
+      <img src="images/home-img3.jpg">
+    </div>
+
+    <section id="foot">
+      <nav class="navbar-expand-md navbar bg-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item footer">
+            <a href="privacy.html" class="footer-link nav-link">Privacy Policy</a>
+          </li>
+          <li class="nav-item footer">
+            <a href="tnc.html" class="footer-link nav-link">Terms and Conditions</a>
+          </li>
+          <li class="nav-item footer">
+            <a href="contact.html" class="footer-link nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+  </body>
+</html>

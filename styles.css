@@ -1,0 +1,62 @@
+/*Navigation bar styling*/
+
+.navbar  {
+  background: none;
+}
+
+.icon  {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.nav-link  {
+  color: white;
+}
+
+.fas  {
+  color: #fff;
+}
+/*Dropdown Menu*/
+
+.dropdown-menu  {
+  background-color: black;
+}
+
+.dropdown-submenu  {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu  {
+  left: 100%;
+}
+
+.dropdown-item  {
+  color: white;
+}
+
+/*Footer navigation bar*/
+
+#foot  {
+  padding: 5%;
+}
+
+.footer  {
+  margin: 0 60%;
+  padding: 0;
+}
+
+.footer-link  {
+  color: white;
+  padding: 0;
+}
+
+
+/*Other styling*/
+a  {
+  text-decoration: none;
+}
+.foot  {
+  display: block;
+  background-color: white;
+}
